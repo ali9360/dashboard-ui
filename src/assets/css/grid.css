@@ -1,0 +1,37 @@
+.react-grid-item.react-grid-placeholder {
+    background-color: rgb(228 228 231);
+    border: 3px solid rgb(148 163 184);
+    border-radius: 12px;
+    border-style: dashed;
+  }
+  .list-droppable-item{
+    color: rgb(111, 106, 112);
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+  }
+  .droppable-element{
+    width: 100%;
+  }
+  .draggable-text{
+    display: flex;
+    gap: 5px;
+    margin-left: 15px;
+  }
+  .draggable-text svg{
+    transform: translateY(1px);
+  }
+  .react-grid-layout{
+    border: 2px solid #5f3aff;
+    border-style: dashed;
+    border-radius: 20px;
+    height: 97vh !important;
+    margin-left: 15px;
+  }
+  .selected{
+    border: 1px solid red;
+    border-radius: 20px;
+    border-style: dashed;
+    background-color: red;
+  }
